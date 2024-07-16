@@ -13,7 +13,7 @@ def load_data(json_file):
     df = pd.DataFrame(data)
     return df
 
-json_files = glob.glob('/home/bigmodel2/distractor_web/*evaluate.json')  # 替换为你的 JSON 文件路径模式
+json_files = glob.glob('./*evaluate.json')  # 替换为你的 JSON 文件路径模式
 
 # 添加标题
 st.title("Distractor Evaluation")
